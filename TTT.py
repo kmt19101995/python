@@ -10,9 +10,7 @@ board2 = [["0", "1", "2"], ["3", "4", "5"], ["6", "7", "8"]]
 a = ["X"]
  
  
-""" *** Functions *** """
-player = tkinter.messagebox.askyesno("First thing first", "Playing against another player?")
-print("is there another player? ", player)
+
  
  
 def turn(pos1, board2, button, a):
